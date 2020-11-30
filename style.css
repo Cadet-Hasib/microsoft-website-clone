@@ -1,0 +1,230 @@
+/** General Styles Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.header__middle ul li a{
+    color: #262626;
+    text-decoration: none;
+}
+
+.header__right li a i{
+    color: #262626;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/** General Styles End */
+
+
+
+/** Navigation Style Start */
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.header__middle ul{
+    display: flex;
+}
+
+.header__left .Logo{
+    width: 110px;
+}
+
+.header__middle ul li a{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header__right{
+    display: flex;
+}
+
+.header__right i{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.fa-user-alt{
+    background-color: #a39f9f;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.header__middle ul li a:hover{
+    border-bottom: 1.5px solid #000000;
+}
+
+/** Navigation Style End */
+
+
+
+/** Showcase Style Start */
+
+.showcase p{
+    margin-bottom: 10px;
+}
+
+.btn{
+    cursor: pointer;
+    color: #f5f5f5;
+    text-decoration: none;
+    background-color: #262626;
+    padding: 10px 30px;
+    transition: all .2s ease;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.showcase{
+    background: url(./Images/Surface\ Pro.png) no-repeat center center/cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.showcase h2{
+    margin-bottom: 7px;
+}
+
+/** Showcase Style End */
+
+
+
+/** Home Cards Start */
+
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 40px;
+}
+
+.home-cards img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.home-cards h3{
+    margin-bottom: 5px;
+}
+
+.home-cards a{
+    display: inline-block;
+    color: #0067b8;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: all .5s ease;
+}
+
+.home-cards a i{
+    transition: all .5s ease;
+    margin-left: 3px;
+}
+
+.home-cards a:hover i{
+    margin-left: 10px;
+}
+
+/** Home Cards End */
+
+/** Carbon Start */
+
+.carbon{
+    width: 100%;
+    height: 350px;
+    background: url(./Images/Nature.jpg) no-repeat center center/cover;
+}
+
+.carbon .content{
+    width: 55%;
+    padding: 100px 0 0 30px;
+}
+
+.carbon .content h2{
+    color: #f5f5f5;
+}
+
+.carbon .content p{
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.carbon .content .carbon-btn{
+    color: #000000;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+
+.carbon .content h2{
+    margin-bottom: 15px;
+}
+
+.carbon .content a i{
+    transition: all .5s ease;
+}
+
+.carbon .content a:hover i{
+    margin-left: 10px;
+}
+
+/** Carbon End */
+
+
+
+/** Follow Start */
+
+.follow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0 30px;
+}
+
+.follow *{
+    margin-right: 10px;
+}
+
+.follow .follow-btn img{
+    border-radius: 50%;
+}
+
+/** Follow End */
